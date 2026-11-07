@@ -1,0 +1,31 @@
+MISSÃO SAÚDE — COMO INSTALAR E COMPARTILHAR
+
+O que vem neste pacote:
+- index.html: jogo completo
+- manifest.webmanifest e ícones: identificação do aplicativo
+- sw.js: funcionamento offline após a primeira visita
+
+IMPORTANTE:
+Este pacote é um aplicativo web instalável (PWA), não um APK Android.
+Para que outras pessoas possam instalar pelo botão "Instalar" ou pelo menu do navegador,
+o jogo precisa primeiro estar publicado em um endereço HTTPS.
+
+PUBLICAR GRATUITAMENTE (opção simples: GitHub Pages):
+1. Crie/entre em uma conta em github.com.
+2. Crie um repositório público chamado missao-saude.
+3. Envie TODOS os arquivos desta pasta para a raiz do repositório.
+4. Abra Settings > Pages.
+5. Em Build and deployment, escolha Deploy from a branch; selecione main e /(root); salve.
+6. Aguarde a publicação. O GitHub mostrará um endereço HTTPS.
+7. Envie esse endereço aos colegas.
+
+COMO INSTALAR:
+- Android/Chrome: abrir o endereço, tocar em "Instalar" se aparecer ou menu ⋮ > Instalar app / Adicionar à tela inicial.
+- iPhone/Safari: abrir o endereço, tocar em Compartilhar > Adicionar à Tela de Início.
+- Computador: usar o ícone de instalação na barra de endereço, quando disponível.
+
+O jogo funciona offline depois de aberto uma primeira vez com conexão.
+O ranking e os recordes são locais: cada aparelho guarda os próprios resultados.
+Para um ranking compartilhado entre todos, seria necessário adicionar um servidor/banco de dados.
+
+Conteúdo educativo: não substitui orientação de profissionais de saúde.
